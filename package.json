@@ -1,0 +1,21 @@
+{
+  "name": "jian-yang-slack-bot",
+  "version": "1.0.0",
+  "description": "A Slack bot that randomly sends Jian Yang quotes from Silicon Valley",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.17.1",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "keywords": ["slack", "bot", "jian-yang", "silicon-valley"],
+  "author": "Your Name",
+  "license": "MIT"
+}
