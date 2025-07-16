@@ -66,9 +66,10 @@ npm start
 
 ## Usage
 
-- **Automatic**: The bot posts quotes every 2 hours
-- **Command**: Type `/jianyang` in any channel
-- **Mention**: `@JianYang` to get a quote
+- **Automatic**: The bot posts quotes/GIFs every 2 hours (20% chance for GIFs)
+- **Command**: Type `/jianyang` in any channel (80% quotes, 20% GIFs)
+- **GIF Command**: Type `/jianyang gif` to always get a GIF
+- **Mention**: `@JianYang` to get a quote or GIF
 - **Keyword**: Say "jian yang" in a message
 
 ## Development
